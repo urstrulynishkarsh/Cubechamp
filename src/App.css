@@ -28,6 +28,31 @@ body {
 
 }
 
+.free{
+ 
+width: 178.11px;
+height: 96px;
+
+
+border: 1px solid #000000;
+border-radius: 30px;
+}
+.free p{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 26.04px;
+/* line-height: 10px; */
+/* or 37% */
+
+margin: 0 auto;
+text-align: center;
+/* text-indent: 25px; */
+text-transform: uppercase;
+
+color: #5274E3;
+}
+
 .fontproperty{
     font-family: 'HeadlandOne';
 font-style: normal;

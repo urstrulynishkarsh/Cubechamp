@@ -88,9 +88,12 @@ function Home() {
                                   <p className='subheading'>We at Cube Champs would train the kids in such a way that they enjoy the art of rotating and solving cubes.</p>
 
 
-                                <div className='flex px-4 items-center mt-16 gap-5'>
+                                <div className='flex px-2 items-center mt-16 gap-5'>
+                                  
                                   <a href="/demo" target='_blank' className='registertoday z-[100]'>REGISTER TODAY</a>
-                                  <p className='star'>FREE</p>
+                                  <div className='free'>
+                                  <p >Take free trial now</p>
+                                  </div>
                                 </div>
                   </div>
         <div className='flex  w-[50%] relative'>

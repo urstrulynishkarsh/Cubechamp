@@ -166,20 +166,18 @@ function Demo() {
             
             <div className='flex textofchoice lg:gap-10 w-[100px] lining sm:200px sm:gap-x-4 '>
             <input onChange={handleChange}  type="radio"  name="experience"
-                    value="Knows to solve rubik's cube "
-                    id="Knows to solve rubik's cube "
+                    value="Knows to solve rubik's cube"
+                    id="Knows to solve rubik's cube"
                     checked={formData.experience === "Knows to solve rubik's cube" }/>
-            <label  htmlFor="Knows to solve rubik's cube ">Knows to solve rubik's cube </label>
+            <label  htmlFor="Knows to solve rubik's cube">Knows to solve rubik's cube </label>
             </div>
           
           <div className='flex textofchoice  lg:gap-10 w-[100px] lining sm:200px sm:gap-x-4 ' >
             <input onChange={handleChange} type="radio"  name="experience"
+                    id="Don't know to solve rubik's cube"
                     value="Don't know to solve rubik's cube"
-                    checked={
-                      formData.experience ===
-                      "Don't know to solve rubik's cube"
-                    } id="Don't know to solve rubik's cube" />
-            <label    htmlFor="Don't know to solve rubik's cube">Don't know to solve rubik's cube</label>
+                    checked={formData.experience ==="Don't know to solve rubik's cube"}/>
+            <label   htmlFor="Don't know to solve rubik's cube">Don't know to solve rubik's cube</label>
             </div>
             {/* <div className='flex textofchoice lg:gap-10 w-[100px] lining'>
             <input onChange={handleChange} type="radio"  name="experience"

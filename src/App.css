@@ -1674,6 +1674,7 @@ color: #000000;
 
 
   @media only screen and (max-width: 640px){
+   
     .pricing-service{
       display: flex;
       flex-direction: column;
@@ -1957,5 +1958,13 @@ border-radius: 797.5px;
     line-height: 22px;
     color: #FFFFFF;
   } 
+  .pricingsection1heading {
+    color: rgba(254,52,8,.8);
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 62px;
+}
  
 }

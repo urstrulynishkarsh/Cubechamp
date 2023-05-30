@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import star1 from '../assets/Star 2.svg'
 import star2 from '../assets/Star 3.svg'
 import star3 from '../assets/Star 4.svg'
@@ -14,6 +14,15 @@ import serviceimage from '../assets/olav-ahrens-rotne-4Ennrbj1svk-unsplash 1.svg
 
 
 function Pricing() {
+  const navigate = useNavigate();
+  const handleClick2 = () => {
+    navigate('/service');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  const handleClick5= () => {
+    navigate('/demo');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
 
 
@@ -37,8 +46,8 @@ function Pricing() {
                     <h1 className='pricingsection1heading2 '><span>Professional</span> and <span>Certified</span><br></br>coaches for your kids </h1>
                 </div>
                 <div className='flex flex-row services-button   gap-16 px-24 mt-16'>
-                <Link to='/contact' className='enroll-button z-[1000] '><h1>Enroll Now</h1></Link>
-                <Link to='/service' className='our-service-button'><h1>Our Services</h1></Link>
+                <Link to='/demo' onClick={handleClick5 } className='enroll-button z-[1000] '><h1>Enroll Now</h1></Link>
+                <Link to='/service' onClick={handleClick2 } className='our-service-button'><h1>Our Services</h1></Link>
                 </div>
 
       </div>
@@ -47,7 +56,7 @@ function Pricing() {
           
         <div className='relative flex'>
               <img className='service-image8' loading='lazy' src={serviceimage} />
-                <Link to='/' className='rectangle9'><h1 className='boxcontent'>START <span>$50</span>/mo <span className=''><BsArrowRight className='text-[3rem] text-center mx-auto'/></span></h1> </Link>
+                <Link to='/demo' onClick={handleClick5 } className='rectangle9'><h1 className='boxcontent'>START <span>$50</span>/mo <span className=''><BsArrowRight className='text-[3rem] text-center mx-auto'/></span></h1> </Link>
                 <div className='flex-col flex relative'>
                 <div className='rectangle2'></div>
                  <div className='rectangle3'></div>
@@ -84,7 +93,7 @@ function Pricing() {
             <h4 className='objective'>Pricing</h4>
             <p className='objectivep'>USD 50 per month</p>
             <div className='service-book mx-auto'>
-            <Link to='/'  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+            <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
             </div>
           </div>
           </div>
@@ -102,7 +111,7 @@ function Pricing() {
             <h4 className='objective'>Pricing</h4>
             <p className='objectivep'>USD 55 per month</p>
             <div className='service-book mx-auto'>
-            <Link to='/' className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+            <Link to='/demo' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
             </div>
           </div>
 
@@ -127,7 +136,7 @@ function Pricing() {
   <h4 className='objective'>Pricing</h4>
   <p className='objectivep'>USD 65 per month</p>
   <div className='service-book mx-auto'>
-  <Link to='/' className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+  <Link to='/demo' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
   </div>
 </div>
 </div>
@@ -145,7 +154,7 @@ function Pricing() {
             <h4 className='objective'>Pricing</h4>
             <p className='objectivep'>USD 70 per month</p>
             <div className='service-book mx-auto'>
-            <Link to='/' className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+            <Link to='/demo' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
             </div>
           </div>
 

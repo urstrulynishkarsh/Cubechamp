@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import star1 from '../assets/Star 2.svg'
 import star2 from '../assets/Star 3.svg'
 import star3 from '../assets/Star 4.svg'
@@ -14,6 +14,15 @@ import Footer from '../components/Footer'
 
 
 function Services() {
+  const navigate = useNavigate();
+  const handleClick2 = () => {
+    navigate('/service');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  const handleClick5= () => {
+    navigate('/demo');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
   
 
@@ -34,8 +43,8 @@ function Services() {
                        <h1 className='pricingsection1heading2 '><span>Professional</span> and <span>Certified</span><br></br>coaches for your kids </h1>
                    </div>
                    <div className='flex flex-row services-button   gap-16 px-24 mt-16'>
-                   <Link to='/contact' className='enroll-button z-[1000] '><h1>Enroll Now</h1></Link>
-                   <Link to='/service' className='our-service-button'><h1>Our Services</h1></Link>
+                   <Link to='/demo' onClick={handleClick5 } className='enroll-button z-[1000] '><h1>Enroll Now</h1></Link>
+                   <Link to='/service' onClick={handleClick2 } className='our-service-button'><h1>Our Services</h1></Link>
                    </div>
    
          </div>
@@ -44,7 +53,7 @@ function Services() {
              
            <div className='relative flex'>
                  <img className='service-image8 z-10' loading='lazy' src={pricingimage} />
-                   <Link to='/' className='rectangle9'><h1 className='boxcontent'>START <span>$50</span>/mo <span className=''><BsArrowRight className='text-[3rem] text-center mx-auto'/></span></h1> </Link>
+                   <Link to='/demo' onClick={handleClick5 } className='rectangle9'><h1 className='boxcontent'>START <span>$50</span>/mo <span className=''><BsArrowRight className='text-[3rem] text-center mx-auto'/></span></h1> </Link>
                    <div className='flex-col flex relative'>
                    <div className='rectangle2'></div>
                     <div className='rectangle3'></div>
@@ -72,7 +81,7 @@ function Services() {
     Sign up for our demo class today and let your child discover the joy of solving Rubik's Cube!</p>
              
                <div className='service-book mx-auto'>
-               <Link to='/'  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+               <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
                </div>
              </div>
   </div>
@@ -87,7 +96,7 @@ function Services() {
     Join our group classes today and experience the thrill of learning and solving Rubik's Cube.</p>
              
     <div className='service-book mx-auto'>
-               <Link to='/'  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+               <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
                </div>
    
               </div>
@@ -102,7 +111,7 @@ function Services() {
                <p className='demopara'>Our one-on-one class is a private class. During the session, our experienced trainer will introduce a Rubik's Cube solving concept and provide materials that aligns with the student's level and pace. The student will have the opportunity to present their understanding, apply the concept, and ask questions in a personalized and focused environment.</p>
              
     <div className=' service-book mx-auto'>
-               <Link to='/'  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+               <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
                </div>
    
               

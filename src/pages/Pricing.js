@@ -65,8 +65,10 @@ function Pricing() {
 
 </div>
 
-<div className='w-11/12 max-w-screen-xl grid grid-cols-2 mt-10  service-grid gap-16 mx-auto px-4'>
+<div className='w-11/12 max-w-screen-xl  mt-10 gap-y-10 gap-16 mx-auto px-4'>
+          <div className='pricing-service mb-16  gap-6 flex'>
           <div className='service-image-1 w-full'><img src={serviceimage1} /></div>
+          
           <div className='flex flex-col gap-4 w-full  relative'>
           
 
@@ -85,7 +87,8 @@ function Pricing() {
             <Link to='/'  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
             </div>
           </div>
-          
+          </div>
+          <div className='pricing-service1 mb-16 gap-6 flex'>
           <div className='flex flex-col gap-4  relative'>
             <h1 className='service-grid-heading'>CUBER   <span>Solve Like a Pro</span></h1>
             <h4 className='objective'>Objective</h4>
@@ -104,9 +107,10 @@ function Pricing() {
           </div>
 
           <div className='service-image-1'><img src={serviceimage2} /></div>
+          </div>
 
     
-
+          <div className='pricing-service mb-10 gap-6 flex'>
           <div className='service-image-1'><img src={serviceimage3} /></div>
 
 
@@ -126,8 +130,8 @@ function Pricing() {
   <Link to='/' className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
   </div>
 </div>
-
-
+</div>
+<div className='pricing-service1 mb-16 gap-6 flex'>
 <div className='flex flex-col gap-4 relative'>
             <h1 className='service-grid-heading'>SPEEDSTER  <span> Solve at Lightning Speed</span></h1>
             <h4 className='objective'>Objective</h4>
@@ -146,7 +150,7 @@ function Pricing() {
           </div>
 
           <div className='service-image-1'><img src={serviceimage4} /></div>
-
+          </div>
 </div>
 
   {/* <div className='rectanglegreen mt-10'></div>

@@ -61,7 +61,8 @@ function Services() {
    
    
    </div>
-   <div className='w-11/12 max-w-screen-xl grid grid-cols-2 mt-10  service-grid gap-16 mx-auto mb-16 px-4'>
+   <div className='w-11/12 max-w-screen-xl  mt-10  service-grid gap-16 mx-auto mb-16 px-4'>
+   <div className='pricing-service mb-16  gap-6 flex'>
              <div className='service-image-1 w-full'><img loading='lazy' src={demoimage1} /></div>
              <div className='flex flex-col gap-4 w-full  relative'>
                <h1 className='demo'>DEMO <span>CLASS</span></h1>
@@ -74,6 +75,8 @@ function Services() {
                <Link to='/'  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
                </div>
              </div>
+  </div>
+  <div className='pricing-service1 mb-16 gap-6 flex'>
                <div className='flex flex-col gap-4 w-full  relative'>
                 <h1 className='demo'>GROUP <span>CLASS</span></h1>
                 <p className='demopara'>Our group classes are engaging live sessions where our expert trainers introduce Rubik's Cube solving concept and provide materials. The classes are designed to be interactive and collaborative, allowing students to share their understanding of the concept, apply it to solve the cube and ask questions. Our trainers provide personalized feedback and guidance to help students improve their solving skills and achieve their goals.<br></br>
@@ -89,6 +92,8 @@ function Services() {
    
               </div>
               <div className='service-image-1 w-full'><img loading='lazy' src={demoimage2} /></div>
+              </div>
+  <div className='pricing-service mb-16  gap-6 flex'>
               <div className='service-image-1 w-full'><img loading='lazy' src={demoimage3} /></div>
    
    
@@ -100,7 +105,9 @@ function Services() {
                <Link to='/'  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
                </div>
    
-              </div>
+              
+               </div>
+               </div>
    
             
    

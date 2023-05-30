@@ -1674,6 +1674,14 @@ color: #000000;
 
 
   @media only screen and (max-width: 640px){
+    .pricing-service{
+      display: flex;
+      flex-direction: column;
+    }
+    .pricing-service1{
+      display: flex;
+      flex-direction: column-reverse;
+    }
     .button{
       
       width: 110px;

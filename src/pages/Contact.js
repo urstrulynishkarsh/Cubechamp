@@ -59,7 +59,7 @@ function Contact() {
           </div>
       </div>
       <div className='w-12/12 max-w-[1280px]  relative mx-auto  px-4'>
-        <a href="https://api.whatsapp.com/send?phone=3076962504" target='_blank' className='w-[578px] whatsappbox gap-5 mx-auto items-center justify-center h-[104px] flex bg-[rgba(217,217,217,0.65)] border-2 mt-10'>
+        <a href="https://api.whatsapp.com/send?phone=13076962504" target='_blank' className='w-[578px] whatsappbox gap-5 mx-auto items-center justify-center h-[104px] flex bg-[rgba(217,217,217,0.65)] border-2 mt-10'>
             <div>
                 <FaWhatsapp className='text-[green] w-[70px] h-[70px]'/>
             </div>

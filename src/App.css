@@ -1377,6 +1377,19 @@ color: #000000;
     
     color: rgba(0, 0, 0, 0.99);
     }
+    .heading1{
+      font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #325DEB;
+  /* color: rgba(0, 0, 0, 0.99); */
+  }
+   
+
+    
     .subheading{
         font-family: 'Open Sans';
     font-style: normal;
@@ -1661,6 +1674,17 @@ color: #000000;
         
         color: rgba(0, 0, 0, 0.99);
         }
+        .heading1{
+          font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 90px;
+      letter-spacing: -0.02em;
+      color: #325DEB;
+      /* color: rgba(0, 0, 0, 0.99); */
+      }
+        
         .subheading{
             font-family: 'Open Sans';
         font-style: normal;

@@ -13,6 +13,7 @@ import cubeicon from '../assets/cubechampsofficiallogo\ 2.svg'
 import whyus from '../assets/Home/cubes_question_mark.png'
 import { Link } from 'react-scroll'
 import Typed from '../components/Typed'
+import Types from '../components/types'
 
 function Home() {
   const questionList = [
@@ -71,7 +72,7 @@ function Home() {
                     
 
 
-
+                      {/* Rotate Fingers */}
                   <div className='flex flex-col w-[50%] relative mobile'>
 
                               {/* first line of heading */}
@@ -84,7 +85,8 @@ function Home() {
                                 {/* 2nd line of heading */}
                                 <div className='flex relative'>
                                   <img className='headingimage2' loading='lazy' src={headingimage2}/>
-                                  <p className='heading'><span className='text-[#325DEB]'>Activate </span>  Brain </p>
+                                  <Types/>
+                                  {/* <p className='heading'><span className='text-[#325DEB]'>Activate </span>  Brain </p> */}
                                 </div>
 
                                   <p className='subheading'>We at Cube Champs would train the kids in such a way that they enjoy the art of rotating and solving cubes.</p>

@@ -56,7 +56,7 @@ function Footer() {
           </div>
           <div className="flex flex-row relative object addressmedia  gap-6">
             <BsTelephoneFill className="w-[28px] h-[28px]" />
-            <p className="select-none footer-location footer-location6"> (123) 456-7890</p>
+            <p className="select-none footer-location footer-location6">+1 (307) 696-2504</p>
           </div>
           <img className='footer-image bg-[#6674cc] h-48 mx-auto' src={myLogo}/>
         </div>

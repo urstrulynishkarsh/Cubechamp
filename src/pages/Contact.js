@@ -17,7 +17,7 @@ function Contact() {
     },
     {
       Logo:<IoCall/>,
-      heading: "(123) 456-7890",
+      heading: "+1 (307) 696-2504",
     },
     {
       Logo:<AiOutlineMail/>,

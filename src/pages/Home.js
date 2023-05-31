@@ -12,6 +12,7 @@ import Footer from '../components/Footer'
 import cubeicon from '../assets/cubechampsofficiallogo\ 2.svg'
 import whyus from '../assets/Home/cubes_question_mark.png'
 import { Link } from 'react-scroll'
+import Typed from '../components/Typed'
 
 function Home() {
   const questionList = [
@@ -75,7 +76,8 @@ function Home() {
 
                               {/* first line of heading */}
                               <div className='flex relative'>
-                                <p className='heading'><span className='text-[#325DEB]'>Rotate </span>Fingers </p>
+                                {/* <p className='heading'><span className='text-[#325DEB]'>Rotate </span>Fingers </p> */}
+                                <Typed/>
                                 <img className='headingimage1' loading='lazy' src={rubix}/>
                               </div>
 

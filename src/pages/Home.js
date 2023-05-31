@@ -64,7 +64,7 @@ function Home() {
   return (
     <div >
           <div className='relative w-12/12  max-w-[1280px] mx-auto mt-16 '>
-                 <div className='flex flex-row relative '>
+                 <div className='flex flex-row homepage-icon relative '>
           
                       {/* gradient */}
                       <div class="ellipse "></div>
@@ -100,7 +100,7 @@ function Home() {
                                   </div>
                                 </div>
                   </div>
-        <div className='flex  w-[50%] relative'>
+        <div className='flex mx-auto w-[50%] relative'>
           <img className='ball1 ' loading='lazy' src={right1}/>
           <img className='ball2'  loading='lazy' src={headingimage}/>
           <img className='ball3' loading='lazy' src={right2}/>

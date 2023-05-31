@@ -6,7 +6,7 @@ import { FiInstagram, FiYoutube } from 'react-icons/fi'
 import { AiOutlineGooglePlus} from 'react-icons/ai'
 import { Link,useHistory } from 'react-scroll'
 import { useLocation, useNavigate } from 'react-router-dom'
-import myLogo from '../assets/cubechampsofficiallogo 1.jpg';
+import myLogo from '../assets/Contact Us/White Logo.png';
 // import { SocialIcon } from 'react-social-icons';
 
 function Footer() {
@@ -58,7 +58,7 @@ function Footer() {
             <BsTelephoneFill className="w-[28px] h-[28px]" />
             <p className="select-none footer-location footer-location6"> (123) 456-7890</p>
           </div>
-          <img className='footer-image bg-gray-500 mx-auto' src={myLogo}/>
+          <img className='footer-image bg-[#6674cc] h-48 mx-auto' src={myLogo}/>
         </div>
         <div className="flex flex-col relative social-media-queries mt-20">
           <div className="flex justify-end socialcolumn gap-8 mb-10">

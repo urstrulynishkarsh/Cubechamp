@@ -58,7 +58,7 @@ function Footer() {
             <BsTelephoneFill className="w-[28px] h-[28px]" />
             <p className="select-none footer-location footer-location6">+1 (307) 696-2504</p>
           </div>
-          <img className='footer-image bg-[#6674cc] h-48 mx-auto' src={myLogo}/>
+          <img className='footer-image bg-[#6674cc] w-[250px] h-[102px] mx-auto' src={myLogo}/>
         </div>
         <div className="flex flex-col relative social-media-queries mt-20">
           <div className="flex justify-end socialcolumn gap-8 mb-10">

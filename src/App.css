@@ -2183,5 +2183,13 @@ border-radius: 797.5px;
     .homepage-icon{
       gap: 10rem;
     }
+    .subheading {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #000000;
+  }
  
 }

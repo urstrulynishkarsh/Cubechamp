@@ -93,7 +93,7 @@ function Pricing() {
             <h4 className='objective'>Pricing</h4>
             <p className='objectivep'>USD 50 per month</p>
             <div className='service-book mx-auto'>
-            <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+            <a href='/demo' target='_blank' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
             </div>
           </div>
           </div>
@@ -111,7 +111,7 @@ function Pricing() {
             <h4 className='objective'>Pricing</h4>
             <p className='objectivep'>USD 55 per month</p>
             <div className='service-book mx-auto'>
-            <Link to='/demo' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+            <a href='/demo' target='_blank' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
             </div>
           </div>
 
@@ -136,7 +136,7 @@ function Pricing() {
   <h4 className='objective'>Pricing</h4>
   <p className='objectivep'>USD 65 per month</p>
   <div className='service-book mx-auto'>
-  <Link to='/demo' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+  <a href='/demo' target='_blank' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
   </div>
 </div>
 </div>
@@ -154,7 +154,7 @@ function Pricing() {
             <h4 className='objective'>Pricing</h4>
             <p className='objectivep'>USD 70 per month</p>
             <div className='service-book mx-auto'>
-            <Link to='/demo' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+            <a href='/demo' target='_blank' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
             </div>
           </div>
 

@@ -81,7 +81,7 @@ function Services() {
     Sign up for our demo class today and let your child discover the joy of solving Rubik's Cube!</p>
              
                <div className='service-book mx-auto'>
-               <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+               <a href='/demo' target='_blank' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
                </div>
              </div>
   </div>
@@ -96,7 +96,7 @@ function Services() {
     Join our group classes today and experience the thrill of learning and solving Rubik's Cube.</p>
              
     <div className='service-book mx-auto'>
-               <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+               <a href='/demo' target='_blank' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
                </div>
    
               </div>
@@ -111,7 +111,7 @@ function Services() {
                <p className='demopara'>Our one-on-one class is a private class. During the session, our experienced trainer will introduce a Rubik's Cube solving concept and provide materials that aligns with the student's level and pace. The student will have the opportunity to present their understanding, apply the concept, and ask questions in a personalized and focused environment.</p>
              
     <div className=' service-book mx-auto'>
-               <Link to='/demo' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></Link>
+               <a href='/demo' target='_blank' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
                </div>
    
               

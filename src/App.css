@@ -1799,6 +1799,12 @@ color: #000000;
     .contactmobile2{
       width: 100%;
       margin:  0 auto;
+     
+    }
+    .ok{
+      max-width: 100%;
+      height: auto;
+      width: auto\9;
     }
 
 

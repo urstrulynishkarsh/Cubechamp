@@ -76,7 +76,7 @@ function Pricing() {
 
 <div className='w-11/12 max-w-screen-xl  mt-10 gap-y-10 gap-16 mx-auto px-4'>
           <div className='pricing-service mb-16  gap-6 flex'>
-          <div className='service-image-1 w-full'><img src={serviceimage1} /></div>
+          <div className='service-image-1 w-full'><img src={serviceimage1} className='ok' /></div>
           
           <div className='flex flex-col gap-4 w-full  relative'>
           

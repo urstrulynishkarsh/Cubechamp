@@ -92,12 +92,12 @@ function Home() {
                                   <p className='subheading'>We at Cube Champs would train the kids in such a way that they enjoy the art of rotating and solving cubes.</p>
 
                                   <div className='mt-16 registerbuttoncss'>
-  <a href="/demo" target='_blank' className='z-[9999] inline-block w-[307.36px] h-[90px] bg-[#5274E3] rounded-[30px] text-white text-center font-bold text-lg leading-[90px] font-open-sans font-normal font-semibold text-3xl leading-14 tracking-wide uppercase'  style={{ position: 'relative' }}>
+  <a href="/demo" target='_blank' className='z-[10] inline-block w-[307.36px] h-[90px] bg-[#5274E3] rounded-[30px] text-white text-center font-bold text-lg leading-[90px] font-open-sans font-normal font-semibold text-3xl leading-14 tracking-wide uppercase'  style={{ position: 'relative' }}>
     REGISTER TODAY
   </a>
 </div>
 <div className='mt-16 mx-auto mediabuttonphone'>
-  <a href="/demo" target='_blank' className='z-[9999] inline-block w-[150px] h-[41px] bg-[#5274E3] rounded-[30px] text-white text-center font-bold text-[15px] leading-[35px] font-open-sans    tracking-wide uppercase '  style={{ position: 'relative' }}>
+  <a href="/demo" target='_blank' className='z-[10] inline-block w-[150px] h-[41px] bg-[#5274E3] rounded-[30px] text-white text-center font-bold text-[15px] leading-[35px] font-open-sans    tracking-wide uppercase '  style={{ position: 'relative' }}>
     REGISTER TODAY
   </a>
 </div>

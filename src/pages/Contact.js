@@ -32,8 +32,8 @@ function Contact() {
     <div >
     <div className='background-contact '>
       <div className='w-12/12 max-w-[1280px] flex relative contact-mobile  px-4'>
-          <div className=' contactmobile2' >
-              <img src={cube} className='w-[800px] h-[400px]'/>
+          <div className='contactmobile2' >
+              <img src={cube} className='w-[800px] h-[400px] ok'/>
           </div>
           <div className='flex flex-col relative mx-auto contactmobile2 '>
             <h1 className='contact-us mx-auto lining'>CONTACT US</h1>

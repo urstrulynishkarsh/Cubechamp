@@ -45,10 +45,10 @@ function Footer() {
       <div className="relative flex flex-row w-11/12 footer-col max-w-[1280px] gap-10 mx-auto ">
         <div className="flex flex-col mx-auto  mt-20">
           <div className="flex gap-6 mb-10">
-            <div className='image'>
+            <div className='flex flex-shrink-0'>
             
-         <IoLocationSharp className="img w-[28px] h-[28px]" />
-         </div>
+               <IoLocationSharp className="img w-[28px] h-[28px]" />
+            </div>
             <p className="footer-location  footer-location6 ">
               30 North Gould Street, Suite R, Sheridan, Wyoming 82801, United States
             </p>

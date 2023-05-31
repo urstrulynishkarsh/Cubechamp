@@ -91,14 +91,23 @@ function Home() {
 
                                   <p className='subheading'>We at Cube Champs would train the kids in such a way that they enjoy the art of rotating and solving cubes.</p>
 
+                                  <div className='mt-16 registerbuttoncss'>
+  <a href="/demo" target='_blank' className='z-[100] inline-block w-[307.36px] h-[90px] bg-[#5274E3] rounded-[30px] text-white text-center font-bold text-lg leading-[90px] font-open-sans font-normal font-semibold text-3xl leading-14 tracking-wide uppercase'>
+    REGISTER TODAY
+  </a>
+</div>
+<div className='mt-16 mx-auto mediabuttonphone'>
+  <a href="/demo" target='_blank' className='z-[100] inline-block w-[150px] h-[41px] bg-[#5274E3] rounded-[30px] text-white text-center font-bold text-[15px] leading-[35px] font-open-sans    tracking-wide uppercase'>
+    REGISTER TODAY
+  </a>
+</div>
 
-                                <div className='flex px-2 items-center mt-16 gap-5'>
-                                  
-                                  <a href="/demo" target='_blank' className='registertoday z-[100]'>REGISTER TODAY</a>
-                                  <div className='free'>
-                                  <p >Take free trial now</p>
-                                  </div>
-                                </div>
+
+
+
+
+
+                               
                   </div>
         <div className='flex mx-auto w-[50%] relative'>
           <img className='ball1 ' loading='lazy' src={right1}/>
@@ -151,40 +160,38 @@ function Home() {
             <div className='canopy '>Canopy <span>of </span>Cubes</div>
       </div> */}
      
-      <div className='w-12/12 max-w-[1280px] flex flex-col  mx-auto relative gap-32'>
-            <div className='canopy'>Kids <span>Loves </span>Us <span>Parent </span> Admire <span>Us </span> </div>
-            <div className='flex flex-row relative mx-auto pb-11 gap-16 flex-wrap'>
-              {
-                reviews.map((element,index)=>{
-                    return(
-                     <div className=' flex flex-col relative mx-auto'>
-                        <div className='image-border z-50 mx-auto' key={index}>
-                            <img className='w-[180px] h-[180px] flex   mx-auto mt-[10px] rounded-full ' src={element.photo} alt={`Review ${index + 1}`} />
-                        </div>
-                      <div className='review-card flex-col text-center p-8   -z-10 -mt-28'>
-                                    <div className=' flex gap-4 justify-center mt-28 '>
-                                          <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]'  />
-                                          <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]'  />
-                                          <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]'  />
-                                          <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]'  />
-                                          <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]'  />
-                                    </div>
-                                    <div  className='flex items-center justify-center mt-4 review-name' >
-                                      {element.name}
-                                    </div>
-                                    <div  className='flex items-center justify-center mt-4 reviews pl-3 w-[90%]'>{element.review}</div>
-                            
-                      </div>
-
-                    
-                     </div>
-                    )
-
-                })
-              }
-
+     <div className='w-12/12 max-w-[1280px] flex flex-col mx-auto relative gap-32'>
+  <div className='canopy'>Kids <span>Loves </span>Us <span>Parent </span>Admire <span>Us </span></div>
+  <div className='flex flex-row relative mx-auto pb-11 gap-16 flex-wrap'>
+    {
+      reviews.map((element, index) => {
+        return (
+          <div className='flex flex-col relative mx-auto'>
+            <div className='image-border z-50 mx-auto' key={index}>
+              <img className='w-[180px] h-[180px] flex mx-auto mt-[10px] rounded-full' src={element.photo} alt={`Review ${index + 1}`} />
             </div>
-      </div>
+            <div className='review-card flex-col text-center p-8 -z-10 -mt-28'>
+              <div className='flex gap-4 justify-center mt-28'>
+                <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]' />
+                <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]' />
+                <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]' />
+                <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]' />
+                <AiFillStar className='text-[yellow] w-[31.61px] h-[32.5px]' />
+              </div>
+              <div className='flex items-center justify-center mt-4 review-name'>
+                {element.name}
+              </div>
+              <div className='flex items-center justify-center mt-4 reviews pl-3 w-[90%]' style={{ overflowWrap: 'break-word' }}>
+                {element.review}
+              </div>
+            </div>
+          </div>
+        )
+      })
+    }
+  </div>
+</div>
+
       
     
     

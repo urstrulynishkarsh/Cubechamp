@@ -14,7 +14,13 @@
 .img {
   width: 100%;
 }
- 
+
+.registerbuttoncss{
+  display: block;
+}
+.mediabuttonphone{
+  display: none;
+}
 
 body {
   width: 100%;
@@ -22,6 +28,15 @@ body {
   overflow-y: auto;
   margin: 0;
    
+}
+.registertoday1{
+  width: 150px;
+height: 41px;
+left: 122px;
+bottom: 135px;
+
+background: #5274E3;
+border-radius: 30px;
 }
 .footer-image{
   display: none;
@@ -1583,6 +1598,12 @@ color: #000000;
   
 
   @media only screen and (max-width: 840px){
+    .registerbuttoncss{
+      display: none;
+    }
+    .mediabuttonphone{
+      display: block;
+    }
     .homepage-icon{
       display: flex;
       flex-direction: column-reverse;
@@ -2099,9 +2120,10 @@ border-radius: 797.5px;
   
   .ball2{
       /* position: absolute; */
-  width: 200px;
-  height: 330px;
-  margin-left: -6rem;
+      max-width: 100%;
+      height: auto;
+      width: auto\9;
+  margin-left: -5rem;
   transform: translateX(90px) translateY(30px);
   
   
@@ -2143,6 +2165,8 @@ border-radius: 797.5px;
       }
     }
   
-
+    .homepage-icon{
+      gap: 10rem;
+    }
  
 }

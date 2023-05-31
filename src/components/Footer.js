@@ -49,13 +49,13 @@ function Footer() {
             
          <IoLocationSharp className="img w-[28px] h-[28px]" />
          </div>
-            <p className="footer-location   ">
+            <p className="footer-location  footer-location6 ">
               30 North Gould Street, Suite R, Sheridan, Wyoming 82801, United States
             </p>
           </div>
           <div className="flex flex-row relative object  gap-6">
             <BsTelephoneFill className="w-[28px] h-[28px]" />
-            <p className="select-none footer-location "> (123) 456-7890</p>
+            <p className="select-none footer-location footer-location6"> (123) 456-7890</p>
           </div>
         </div>
         <div className="flex flex-col relative social-media-queries mt-20">

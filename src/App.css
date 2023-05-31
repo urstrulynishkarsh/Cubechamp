@@ -1598,6 +1598,15 @@ color: #000000;
   
 
   @media only screen and (max-width: 840px){
+    .reviews {
+      font-family: 'Biryani';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 23px;
+      text-align: center;
+      color: #000000;
+  }
     .registerbuttoncss{
       display: none;
     }

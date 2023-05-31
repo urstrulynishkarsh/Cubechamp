@@ -181,7 +181,7 @@ function Home() {
               <div className='flex items-center justify-center mt-4 review-name'>
                 {element.name}
               </div>
-              <div className='flex items-center justify-center mt-4 reviews pl-3 w-[90%]' style={{ overflowWrap: 'break-word' }}>
+              <div className='flex items-center justify-center mt-2 reviews pl-3 w-[90%]' style={{ overflowWrap: 'break-word' }}>
                 {element.review}
               </div>
             </div>

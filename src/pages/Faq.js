@@ -73,7 +73,7 @@ function Faq() {
                           <div className='w-[35.3px] h-[35.3px] bg-[#FFE6D9] rounded-full flex items-center justify-center'>
                                         <SiIconify className='justify-center text-center items-center flex mx-auto ' />
                                       </div>
-                            <div className='font-medium not-italic text-[14.7088px] leading[22px]'>Essentials needed to start a Rubik’s cube training.</div>
+                            <div className='font-medium not-italic text-[14.7088px] leading[22px]'>Is it necessary to start from 3x3 cubes in your rubik's cube online classes?</div>
                             <div className='text-[#53686A] not-italic font-semibold text-[13.767px] leading-[18px] '>Yes , it’s absolutely necessary to start from a basic 3x3 cube because that is where the base/foundation gets laid for higher cubes.</div>
                           </div>
                   </div>

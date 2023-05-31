@@ -75,7 +75,7 @@ function Services() {
              <div className='service-image-1 w-full'><img loading='lazy' src={demoimage1} /></div>
              <div className='flex flex-col gap-4 w-full  relative'>
                <h1 className='demo'>DEMO <span>CLASS</span></h1>
-                <p className='demopara'>Our academy offers a free 30-minute demo class for kids aged 5-15 who are interested in learning the art of solving Rubik's Cube.<br></br>
+                <p className='demopara'>Our academy offers a free 30-minute demo class for kids aged 5-15 who are interested in learning the art of solving Rubik's Cube.<br></br><br></br>
     During this session, our experienced and enthusiastic trainers will provide an overview of our teaching methodology, demonstrate some basic solving techniques. Our goal is to give your child a glimpse into the exciting world of Rubik's Cube, Whether your child is a complete beginner or has some experience with the cube, we welcome them to join us for a fun and informative session.<br></br>
     After the completion of demo class, our trainers will assess the child's abilities based on their performance, then recommend whether you should go with group class or one-on-one sessions for better learning.<br></br><br></br>
     Sign up for our demo class today and let your child discover the joy of solving Rubik's Cube!</p>

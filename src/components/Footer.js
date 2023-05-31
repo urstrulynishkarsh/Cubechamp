@@ -44,17 +44,18 @@ function Footer() {
     <footer className="bg-[#6674cc] relative">
       <div className="relative flex flex-row w-11/12 footer-col max-w-[1280px] gap-10 mx-auto ">
         <div className="flex flex-col mx-auto  mt-20">
-          <div className="flex flex-row gap-6 mb-10">
+          <div className="flex gap-6 mb-10">
             <div className='image'>
-         <IoLocationSharp className="w-[28px] img h-[28px] sm:w-[40px] sm:h-[40px]" />
+            
+         <IoLocationSharp className="img w-[28px] h-[28px]" />
          </div>
-            <p className="footer-location  footer-location6 ">
+            <p className="footer-location   ">
               30 North Gould Street, Suite R, Sheridan, Wyoming 82801, United States
             </p>
           </div>
           <div className="flex flex-row relative object  gap-6">
             <BsTelephoneFill className="w-[28px] h-[28px]" />
-            <p className="select-none footer-location footer-location6"> (123) 456-7890</p>
+            <p className="select-none footer-location "> (123) 456-7890</p>
           </div>
         </div>
         <div className="flex flex-col relative social-media-queries mt-20">

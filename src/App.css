@@ -10,6 +10,7 @@
     box-sizing: border-box;
 
 }
+
 .img {
   width: 100%;
 }
@@ -17,7 +18,6 @@
 .image {
     flex-shrink: 0;
 }
-
 body {
   width: 100%;
   overflow-x: hidden;
@@ -1772,7 +1772,7 @@ opacity: 0.5;
  
 
   @media only screen and (max-width: 521px){
-  
+    
     .footer-location6{
       overflow-y: hidden;
       overflow-x: hidden;

@@ -42,16 +42,16 @@ function Demo() {
       
           if (savedUserResponse.ok) {
             console.log("Form submitted successfully!");
-            toast.success("Registeration Successfully 😎")
+            toast.success("Registered Successfully Our team will contact you soon")
             // Perform any necessary actions upon successful submission
           } 
           else {
             console.log("Form submission failed with status :", savedUserResponse.status);
-            toast.error("Form submission failed 😭")
+            toast.error("Some error occurred kindly check your device internet 😭")
           }
         } catch (error) {
           console.error("Error submitting form:", error);
-          toast.error("Form submission failed 😭")
+          toast.error("Some error occurred kindly check your device internet 😭")
         }
 
 

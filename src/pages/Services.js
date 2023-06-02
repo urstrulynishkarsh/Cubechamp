@@ -108,7 +108,7 @@ function Services() {
    
               <div className='flex flex-col gap-4 w-full  relative'>
               <h1 className='demo'>ONE ON ONE <span>CLASS</span></h1>
-               <p className='demopara'>Our one-on-one class is a private class. During the session, our experienced trainer will introduce a Rubik's Cube solving concept and provide materials that aligns with the student's level and pace. The student will have the opportunity to present their understanding, apply the concept, and ask questions in a personalized and focused environment.</p>
+               <p className='demopara'>Our one-on-one class is a private class.<br></br> <br></br> During the session, our experienced trainer will introduce a Rubik's Cube solving concept and provide materials that aligns with the student's level and pace.<br></br> <br></br> The student will have the opportunity to present their understanding, apply the concept, and ask questions in a personalized and focused environment.</p>
              
     <div className=' service-book mx-auto'>
                <a href='/demo' target='_blank' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>

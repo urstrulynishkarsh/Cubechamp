@@ -517,7 +517,7 @@ color: #5D5D70;
 .service-image8{
   /* position: absolute; */
   /* position: fixed; */
-width: 370px;
+width: 440px;
 height: 390px;
 left: 39rem;
 top: 121px;
@@ -668,12 +668,24 @@ height: 65.11px; */
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
-font-size: 12px;
+font-size: 16px;
 line-height: 20px;
 /* or 167% */
 
 
 color: #5D5D70;
+}
+.demopara span{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+
+
+color: #5D5D70;
+
 }
 
 .groupimage{

@@ -32,7 +32,7 @@ function Services() {
 
 
    <div className='bgimage '>
-       <div className='w-11/12 max-w-screen-xl flex flex-row new-service-col gap-16 mx-auto px-4'>
+       <div className='w-12/12 max-w-screen-xl flex flex-row new-service-col gap-28 mx-auto px-4'>
          <div className='flex flex-col relative '>
          <img src={star1} className='w-[49.46px] h-[43px] absolute right-0 mt-5 star1'/>
          <h1 className='pricingsection1heading mt-14'>Your kids are <br></br><span>in good hands</span></h1>
@@ -76,7 +76,7 @@ function Services() {
              <div className='flex flex-col gap-4 w-full  relative'>
                <h1 className='demo'>DEMO <span>CLASS</span></h1>
                 <p className='demopara'>Our academy offers a free 30-minute demo class for kids aged 5-15 who are interested in learning the art of solving Rubik's Cube.<br></br><br></br>
-    During this session, our experienced and enthusiastic trainers will provide an overview of our teaching methodology, demonstrate some basic solving techniques. Our goal is to give your child a glimpse into the exciting world of Rubik's Cube, Whether your child is a complete beginner or has some experience with the cube, we welcome them to join us for a fun and informative session.<br></br>
+    During this session, our experienced and enthusiastic trainers will provide an overview of our teaching methodology, demonstrate some basic solving techniques. Our goal is to give your child a glimpse into the exciting world of Rubik's Cube, Whether your child is a complete beginner or has some experience with the cube, we welcome them to join us for a fun and informative session.<br></br><br></br>
     After the completion of demo class, our trainers will assess the child's abilities based on their performance, then recommend whether you should go with group class or one-on-one sessions for better learning.<br></br><br></br>
     Sign up for our demo class today and let your child discover the joy of solving Rubik's Cube!</p>
              
@@ -88,11 +88,11 @@ function Services() {
   <div className='pricing-service1 mb-16 gap-6 flex'>
                <div className='flex flex-col gap-4 w-full  relative'>
                 <h1 className='demo'>GROUP <span>CLASS</span></h1>
-                <p className='demopara'>Our group classes are engaging live sessions where our expert trainers introduce Rubik's Cube solving concept and provide materials. The classes are designed to be interactive and collaborative, allowing students to share their understanding of the concept, apply it to solve the cube and ask questions. Our trainers provide personalized feedback and guidance to help students improve their solving skills and achieve their goals.<br></br>
-    Here are few benefits of joining group class: -<br></br>
-    Self-confidence and self-esteem: As students grow in their understanding and mastery of Rubik's Cube, they will have the opportunity to present their solving techniques to the group, which can boost their self-esteem and confidence in their abilities.<br></br>
-    Interactivity: Our group classes are interactive live sessions where students can observe and learn from each other's problem-solving techniques, enhancing their understanding of Rubik's Cube.<br></br>
-    Positive interdependence: Our group classes teach students the importance of interdependence and accountability. They will learn how their actions and behavior can affect the group's progress and success.<br></br>
+                <p className='demopara'>Our group classes are engaging live sessions where our expert trainers introduce Rubik's Cube solving concept and provide materials. The classes are designed to be interactive and collaborative, allowing students to share their understanding of the concept, apply it to solve the cube and ask questions. Our trainers provide personalized feedback and guidance to help students improve their solving skills and achieve their goals.<br></br><br></br>
+    Here are few benefits of joining group class: -<br></br><br></br>
+   <span>Self-confidence and self-esteem</span> : As students grow in their understanding and mastery of Rubik's Cube, they will have the opportunity to present their solving techniques to the group, which can boost their self-esteem and confidence in their abilities.<br></br><br></br>
+   <span>Interactivity</span> : Our group classes are interactive live sessions where students can observe and learn from each other's problem-solving techniques, enhancing their understanding of Rubik's Cube.<br></br><br></br>
+   <span>Positive interdependence</span> : Our group classes teach students the importance of interdependence and accountability. They will learn how their actions and behavior can affect the group's progress and success.<br></br><br></br>
     Join our group classes today and experience the thrill of learning and solving Rubik's Cube.</p>
              
     <div className='service-book mx-auto'>

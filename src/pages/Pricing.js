@@ -10,7 +10,7 @@ import serviceimage1 from "../assets/serviceimage1.jpg"
 import serviceimage2 from '../assets/serviceimage2.jpg'
 import serviceimage3 from '../assets/serviceimage3.jpg'
 import serviceimage4 from '../assets/service image4.jpg'
-import serviceimage from '../assets/olav-ahrens-rotne-4Ennrbj1svk-unsplash 1.svg'
+import serviceimage from '../assets/Services/olav-ahrens-rotne-4Ennrbj1svk-unsplash 1price (1).png'
 
 
 function Pricing() {
@@ -34,7 +34,7 @@ function Pricing() {
 
 
 <div className='bgimage '>
-    <div className='w-11/12 max-w-screen-xl flex flex-row new-service-col gap-16 mx-auto px-4'>
+    <div className='w-12/12 max-w-screen-xl flex flex-row new-service-col gap-28 mx-auto px-4'>
       <div className='flex flex-col relative '>
       <img src={star1} className='w-[49.46px] h-[43px] absolute right-0 mt-5 star1'/>
       <h1 className='pricingsection1heading mt-14'>Affordable Price

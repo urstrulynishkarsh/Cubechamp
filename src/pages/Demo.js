@@ -14,6 +14,48 @@ function Demo() {
     experience: '',
   });
 
+  // const history = useHistory();
+
+  const handleSubmit = async () => {
+    try {
+      const savedUserResponse = await fetch(`${process.env.REACT_APP_BASE_URL}/createUser`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ...formData }),
+      });
+
+      if (savedUserResponse.ok) {
+        console.log('Form submitted successfully!');
+        // toast.success('Registered Successfully! Our team will contact you soon.');
+        // Perform any necessary actions upon successful submission
+      } else {
+        console.log('Form submission failed with status:', savedUserResponse.status);
+        // toast.error('Some error occurred. Kindly check your device internet 😭');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      // toast.error('Some error occurred. Kindly check your device internet 😭');
+    }
+
+    // Perform form submission logic here
+    // console.log(formData);
+    // setFormData({
+    //   parentName: '',
+    //   childName: '',
+    //   email: '',
+    //   phoneNumber: '',
+    //   age: '',
+    //   country: '',
+    //   experience: '',
+    // });
+  };
+
+  useEffect(() => {
+    handleSubmit();
+  }, []);
+
   const handleChange = (event) => {
     const { type, name, value, checked } = event.target;
     setFormData((prevFormData) => {
@@ -24,7 +66,7 @@ function Demo() {
     });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmitForm = async (e) => {
     e.preventDefault();
     try {
       const savedUserResponse = await fetch(`${process.env.REACT_APP_BASE_URL}/createUser`, {
@@ -61,15 +103,12 @@ function Demo() {
     });
   };
 
-  useEffect(() => {
-    handleSubmit();
-  }, [formData]);
 
       return (
         <div>
         <div className="form-container mx-auto  ">
           <h2>Register for Free Trail Class</h2>
-          <form className="enrollment-form" onSubmit={handleSubmit}>
+          <form className="enrollment-form" onSubmit={handleSubmitForm}>
             <div className="form-group"> 
               <label htmlFor="parentName" className="required">Parent's Name</label>
               <input

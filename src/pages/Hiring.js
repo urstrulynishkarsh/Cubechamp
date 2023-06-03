@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../components/Footer'
 import { toast } from 'react-toastify';
 
@@ -7,13 +7,36 @@ function Hiring() {
     fullName: '',email: '', phoneNumber: '',state:'',country:'',city:'',address:'',qualification:'',experience:'',additionalInfo:''
   });
 
-  // const handleChange = (e) => {
-  //   const {type, name, value } = e.target;
-  //   setFormData((prevData) => ({
-  //     ...prevData,
-  //     [name]: value,
-  //   }));
-  // };
+  const handleSubmit = async () => {
+    try {
+      const savedUserResponse = await fetch(`${process.env.REACT_APP_BASE_URL}/createTeacher`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ...formData }),
+      });
+
+      if (savedUserResponse.ok) {
+        console.log('Form submitted successfully!');
+        // toast.success('Registered Successfully! Our team will contact you soon.');
+        // Perform any necessary actions upon successful submission
+      } else {
+        console.log('Form submission failed with status:', savedUserResponse.status);
+        // toast.error('Some error occurred. Kindly check your device internet 😭');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      // toast.error('Some error occurred. Kindly check your device internet 😭');
+    }
+
+ 
+  };
+
+  useEffect(() => {
+    handleSubmit();
+  }, []);
+  
 
   const handleChange=(event)=>{
     const{type,name,value,checked}=event.target;
@@ -25,7 +48,7 @@ function Hiring() {
     })
   }
 
-  const handleSubmit = async (e) => {
+  const handleSubmitForm = async (e) => {
     e.preventDefault();
     try {
       const savedUserResponse = await fetch(
@@ -62,7 +85,7 @@ function Hiring() {
     <div>
     <div className="form-container mx-auto  ">
       <h2>Register for Teaching</h2>
-      <form className="enrollment-form" onSubmit={handleSubmit}>
+      <form className="enrollment-form" onSubmit={handleSubmitForm}>
         <div className="form-group"> 
           <label htmlFor="fullName" className="required">Full Name</label>
           <input

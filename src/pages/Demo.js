@@ -1,77 +1,70 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../components/Footer';
 import { toast } from 'react-toastify';
 // import { Await } from 'react-router-dom';
 
 function Demo() {
-    const [formData, setFormData] = useState({
-        parentName: '',childName: '',email: '',phoneNumber: '',age:'',country:'',experience:''
-      });
-    
-      // const handleChange = (e) => {
-      //   const {type, name, value } = e.target;
-      //   setFormData((prevData) => ({
-      //     ...prevData,
-      //     [name]: value,
-      //   }));
-      // };
-    
-      const handleChange=(event)=>{
-        const{type,name,value,checked}=event.target;
-        setFormData(prevFormData=>{
-          return{
-            ...prevFormData,
-            [name]:type==="checkbox"?checked:value
-          }
-        })
-      }
-    
-      const handleSubmit = async (e) => {
-        e.preventDefault();
-        try {
-          const savedUserResponse = await fetch(
-            `${process.env.REACT_APP_BASE_URL}/createUser`,
-            {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify({ ...formData }),
-            }
-          );
-      
-          if (savedUserResponse.ok) {
-            console.log("Form submitted successfully!");
-            toast.success("Registered Successfully Our team will contact you soon")
-            // Perform any necessary actions upon successful submission
-          } 
-          else {
-            console.log("Form submission failed with status :", savedUserResponse.status);
-            toast.error("Some error occurred kindly check your device internet 😭")
-          }
-        } catch (error) {
-          console.error("Error submitting form:", error);
-          toast.error("Some error occurred kindly check your device internet 😭")
-        }
+  const [formData, setFormData] = useState({
+    parentName: '',
+    childName: '',
+    email: '',
+    phoneNumber: '',
+    age: '',
+    country: '',
+    experience: '',
+  });
 
-
-
-
-        // Perform form submission logic here
-        console.log(formData);
-        setFormData({
-          parentName: '',
-          childName: '',
-          email: '',
-          phoneNumber: '',
-          age:'',
-          country:'',
-          experience:'',
-        });
+  const handleChange = (event) => {
+    const { type, name, value, checked } = event.target;
+    setFormData((prevFormData) => {
+      return {
+        ...prevFormData,
+        [name]: type === 'checkbox' ? checked : value,
       };
+    });
+  };
 
-      
-    
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const savedUserResponse = await fetch(`${process.env.REACT_APP_BASE_URL}/createUser`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ ...formData }),
+      });
+
+      if (savedUserResponse.ok) {
+        console.log('Form submitted successfully!');
+        toast.success('Registered Successfully! Our team will contact you soon.');
+        // Perform any necessary actions upon successful submission
+      } else {
+        console.log('Form submission failed with status:', savedUserResponse.status);
+        toast.error('Some error occurred. Kindly check your device internet 😭');
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      toast.error('Some error occurred. Kindly check your device internet 😭');
+    }
+
+    // Perform form submission logic here
+    console.log(formData);
+    setFormData({
+      parentName: '',
+      childName: '',
+      email: '',
+      phoneNumber: '',
+      age: '',
+      country: '',
+      experience: '',
+    });
+  };
+
+  useEffect(() => {
+    handleSubmit();
+  }, [formData]);
+
       return (
         <div>
         <div className="form-container mx-auto  ">

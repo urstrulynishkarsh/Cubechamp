@@ -101,7 +101,7 @@ function Footer() {
       <div className="flex-1 h-[3px] bg-[#b5cec5] mt-10 w-[1280px] mx-auto"></div>
       <div className="relative flex flex-row w-12/12 max-w-[1280px] mx-auto pb-5">
         <p className="mx-auto mt-6 footer-location footer-location2">
-          Copyright © 2023 CubeCHamp. LLC
+          Copyright © 2023 CubeChamps LLC
           All Rights Reserved.
         </p>
       </div>

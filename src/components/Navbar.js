@@ -63,6 +63,10 @@ function Navbar() {
     navigate('/service');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+  const handleClick5= () => {
+    navigate('/demo');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   const handleClick3 = () => {
     navigate('/pricing');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -71,10 +75,7 @@ function Navbar() {
     navigate('/faq');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
-  const handleClick5= () => {
-    navigate('/demo');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+ 
 
   const handleClick6 = () => {
     navigate('/hiring');

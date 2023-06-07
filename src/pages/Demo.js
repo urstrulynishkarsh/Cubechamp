@@ -106,7 +106,7 @@ function Demo() {
 
       return (
         <div>
-        <div className="form-container mx-auto  ">
+        <div className="form-container mx-auto">
           <h2>Register for Free Trial Class</h2>
           <form className="enrollment-form" onSubmit={handleSubmitForm}>
             <div className="form-group"> 

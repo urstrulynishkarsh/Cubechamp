@@ -107,7 +107,7 @@ function Demo() {
       return (
         <div>
         <div className="form-container mx-auto  ">
-          <h2>Register for Free Trail Class</h2>
+          <h2>Register for Free Trial Class</h2>
           <form className="enrollment-form" onSubmit={handleSubmitForm}>
             <div className="form-group"> 
               <label htmlFor="parentName" className="required">Parent's Name</label>

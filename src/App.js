@@ -11,15 +11,47 @@ import Hiring from "./pages/Hiring";
 import Demo from "./pages/Demo";
 import Privacy from "./pages/Privacy";
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 
 
 
 function App() {
- 
- 
-  
- 
+
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    // Function to retrieve visit count
+    const getCount = async () => {
+      const baseUrl = process.env.REACT_APP_BASE_URL;
+      try {
+        const response = await axios.get(`${baseUrl}/getCount`);
+        console.log("hey",response)
+        setCount(response.data.count);
+      } catch (error) {
+        console.error(error);
+        console.log("what is the error",error);
+      }
+    };
+
+    getCount(); // Call the function when the component mounts
+  }, []);
+
+
+useEffect(()=>{
+  const incrementCount = async () => {
+    const baseUrl = process.env.REACT_APP_BASE_URL;
+    try {
+      await axios.post(`${baseUrl}/increment`);
+      setCount(count + 1);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  incrementCount();
+},[])
+
+
 
   
 

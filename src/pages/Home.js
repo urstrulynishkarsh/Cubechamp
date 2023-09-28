@@ -62,7 +62,7 @@ function Home() {
 
 
   return (
-    <div >
+    <div>
           <div className='relative w-12/12  max-w-[1280px] mx-auto mt-16 '>
                  <div className='flex flex-row homepage-icon relative '>
           

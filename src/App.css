@@ -2205,3 +2205,20 @@ border-radius: 797.5px;
   }
  
 }
+
+
+
+
+.hello {
+
+  background-image: url(https://cdn.thecodehelp.in/f2y7na7cqmsrdspozkwo_0cebdff421.webp);
+  background-repeat: no-repeat;
+  width: 100%;
+height: 500px; 
+align-items: center;
+justify-content: center;
+display: flex;
+background-position: center;
+/* You may want to specify additional CSS properties for the background image */
+/* For example: background-size, background-repeat, etc. */
+}

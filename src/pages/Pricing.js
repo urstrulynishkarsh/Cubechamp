@@ -89,9 +89,9 @@ function Pricing() {
             <h4 className='objective'>Schedule</h4>
             <p className='objectivep'> Weekly 2 sessions of 45 minutes duration each</p>
             <h4 className='objective'> Group Size</h4>
-            <p className='objectivep'>up to 5 Kids</p>
+            <p className='objectivep'>up to 2-3 Kids</p>
             <h4 className='objective'>Pricing</h4>
-            <p className='objectivep'>USD 50 per month</p>
+            <p className='objectivep'>USD 55 per month</p>
             <div className='service-book mx-auto'>
             <a href='/demo' target='_blank' onClick={handleClick5 }  className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
             </div>
@@ -107,9 +107,9 @@ function Pricing() {
             <h4 className='objective'>Schedule</h4>
             <p className='objectivep'> Schedule Weekly 2 sessions of 45 minutes duration each </p>
             <h4 className='objective'>Group Size</h4>
-            <p className='objectivep'>up to 5 Kids</p>
+            <p className='objectivep'>up to 2-3 Kids</p>
             <h4 className='objective'>Pricing</h4>
-            <p className='objectivep'>USD 55 per month</p>
+            <p className='objectivep'>USD 60 per month</p>
             <div className='service-book mx-auto'>
             <a href='/demo' target='_blank' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
             </div>
@@ -132,9 +132,9 @@ function Pricing() {
   <h4 className='objective'>Schedule</h4>
   <p className='objectivep'> Weekly 2 sessions of 45 minutes duration each</p>
   <h4 className='objective'>Group Size</h4>
-  <p className='objectivep'>up to 5 Kids</p>
+  <p className='objectivep'>up to 2-3 Kids</p>
   <h4 className='objective'>Pricing</h4>
-  <p className='objectivep'>USD 65 per month</p>
+  <p className='objectivep'>USD 70 per month</p>
   <div className='service-book mx-auto'>
   <a href='/demo' target='_blank' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
   </div>
@@ -150,9 +150,9 @@ function Pricing() {
             <h4 className='objective'>Schedule</h4>
             <p className='objectivep'> Weekly 2 sessions of 45 minutes duration each</p>
             <h4 className='objective'>Group Size</h4>
-            <p className='objectivep'>up to 5 Kids</p>
+            <p className='objectivep'>up to 2-3 Kids</p>
             <h4 className='objective'>Pricing</h4>
-            <p className='objectivep'>USD 70 per month</p>
+            <p className='objectivep'>USD 75 per month</p>
             <div className='service-book mx-auto'>
             <a href='/demo' target='_blank' onClick={handleClick5 } className='lining flex justify-center mt-1  gap-2 ' ><h1 className='bookheading mt-2'>Book Now</h1> <img src={star5}/></a>
             </div>

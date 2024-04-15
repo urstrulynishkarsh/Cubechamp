@@ -12,6 +12,7 @@ import Demo from "./pages/Demo";
 import Privacy from "./pages/Privacy";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { Background404 } from "./pages/Background404";
 
 
 
@@ -73,7 +74,11 @@ useEffect(()=>{
         <Route path="/demo" element={<Demo/>}/>
         <Route path="/Privacy" element={<Privacy/>}/>
 
+        {/* <Route path="*">
+            <Background404 />
+          </Route> */}
 
+<Route path="*" element={<Background404 />} /> 
       </Routes>
 
     </div>
